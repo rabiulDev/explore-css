@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: gainsboro;
+  padding: 30px;
+}
+.blog__one {
+  padding: 20px;
+  border: 1px solid gold;
+  margin-top: 30px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.blog__one--content {
+  max-width: 45%;
+  display: inline-block;
+}
+.blog__one--header {
+  text-align: center;
+  color: goldenrod;
+}
+.blog__one--peragraph {
+  font-size: 1.5em;
+  font-family: monospace;
+  margin-top: 30px;
+  text-align: justify;
+  color: brown;
+}
+.strong {
+  color: cadetblue;
+}
+
+.blog__one--image {
+  max-width: 50%;
+  display: block;
+  overflow: hidden;
+  float: right;
+  clear: both;
+  height: 370px;
+}
